@@ -1,0 +1,145 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.main {
+    position: absolute;
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    background-color: #398AB9;
+}
+
+.main>div {
+    text-align: center;
+    position: relative;
+    width: 500px;
+    height: 400px;
+    background-color: white;
+    border: none;
+    padding-inline: 30px;
+    border-radius: 20px;
+    margin-block: 20px;
+    overflow-y: auto;
+}
+
+.main>div>span {
+    font-size: 30px;
+    font-weight: 900;
+    display: inline-flex;
+    margin-block: 20px;
+}
+
+form>label {
+    position: relative;
+    width: 100%;
+    height: auto;
+    cursor: pointer;
+}
+
+form>label>input {
+    all: unset;
+    position: relative;
+    width: 100%;
+    border: 1px solid black;
+    border-radius: 40px;
+    cursor: pointer;
+    padding-block: 10px;
+    margin-block: 20px;
+    text-align: center;
+}
+
+form>label>input:hover {
+    border: 1px solid white;
+    box-shadow: 0px 0px 10px 1px #398ab96c;
+}
+
+.hobbies>label {
+    position: relative;
+    margin-inline-end: 30px;
+    cursor: pointer;
+}
+
+.hobbies {
+    margin-block-start: 10px;
+}
+
+.hobbies>label>input {
+    position: absolute;
+    inset-inline-end: -20px;
+    inset-block-end: 2px;
+    cursor: pointer;
+}
+
+.button {
+    background: radial-gradient(#1C658C, #398AB9);
+    width: 100%;
+    border-radius: 40px;
+    cursor: pointer;
+    padding-block: 10px;
+    margin-block: 20px;
+    color: white;
+    border: none;
+    opacity: 0.8;
+}
+
+.button:hover {
+    opacity: 1;
+}
+
+
+/*
+form>label>input :checked {
+    border: none;
+    border-bottom: 1px;
+    background-color: red;
+}
+
+
+/*
+.hobbies {
+    display: flex;
+}
+
+.button {
+    background: radial-gradient(rgb(110, 110, 223), rgba(63, 63, 177, 0.486));
+    width: 100%;
+    border-radius: 40px;
+    border: none;
+    cursor: pointer;
+    padding-block: 10px;
+}
+
+
+*/
+
+table {
+    position: relative;
+    width: 100%;
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+table tr,
+table td,
+table th {
+    border: 1px solid black;
+}
+
+.table tr {
+    position: relative;
+    width: 100%;
+}
+
+.table>tbody,
+.table>thead {
+    position: relative;
+    width: 100%;
+    background-color: blue;
+}
